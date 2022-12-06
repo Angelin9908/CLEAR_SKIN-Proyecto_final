@@ -1,0 +1,249 @@
+@media screen and (max-width:390px) {
+  header{
+    height: 65vh;
+    width: 100%;
+  }
+  #azul{
+    color: white;
+    background-color: var(--negro);
+  }
+  .logo p{
+    color: var(--primary);
+    font-family: var(--font1);
+    font-size: 1.7rem;
+    line-height: 20px;
+    font-weight: 100;
+  }
+  .logo p span{
+    font-size: 0.68rem;
+    color: var(--negro);
+    font-family: var(--font2);
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  .contenedor-menu{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    }
+  .menu{
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu i{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--negro);
+    background-color: white;
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+  nav{
+    border: 1px solid;
+    display: none;
+  }
+  nav a{
+    font-size: 0.9rem;
+    display: flex;
+    background-color: white;
+    width: 370px;
+    padding: 10px 15px;
+    z-index: 5;
+  }
+  .abrirmenu{
+    display: flex;
+  }
+  .titulo{
+    font-family: var(--font1);
+    color: var(--negro);
+    font-weight: lighter;
+    font-size: 1.78em;
+    line-height: 50%;
+    padding-top: 0px;
+  }
+  .titulo2{
+    font-family: var(--font1);
+    color: var(--negro);
+    font-weight: lighter;
+    font-size: 1.8rem;
+    line-height: 150%;
+    padding-top: 0px 0px 10px 0px;
+  }
+  .sub{
+    padding: 28px 0px 28px;
+    font-family: var(--font2);
+    color: var(--gris);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  .sub::after{
+    display: block;
+    width: 30px;
+    height: 5px;
+    content: "";
+    background-color: var(--primary);
+    margin: 0 auto;
+    margin: 30px 0px;
+  }
+  .sub2{
+    font-family: var(--font2);
+    color: var(--second);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .sub2:after{
+    display: block;
+    width: 30px;
+    height: 3px;
+    content: "";
+    background-color: var(--primary);
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .text{
+    font-family: var(--font3);
+    padding: 10px 0px;
+    color: var(--gris);
+    line-height: 24px;
+    font-weight: 200;
+    font-size: 1.1rem;
+  }
+  #subir{
+    background-color: var(--negro);
+    color: white;
+    transition: all 0.9s;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+  
+    position: sticky;
+    top: 90%;
+    left: 85%;
+    z-index: 1000;
+  }
+  #subir:hover{
+    background-color: var(--primary);
+    color: white;
+  }
+  .btn2{
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    padding: 15px 0px;
+    border-radius: 50px;
+    border: 2px solid var(--primary);
+    width: 180px;
+    font-family: var(--font2);
+    text-align: center;
+  }
+  .btn2:hover{
+    background-color: white;
+    color: var(--primary);
+  }
+  /* 
+  ** FOOTER
+   */
+   footer{
+    background-color: var(--negro-primary);
+    padding: 60px 0px;
+   }
+   footer section{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-direction: column;
+    width: 90%;
+   }
+   .logo-footer p{
+    color: var(--primary);
+    font-family: var(--font1);
+    font-size: 1.7rem;
+    line-height: 20px;
+    font-weight: 100;
+  }
+  .logo-footer p span{
+    font-size: 0.68rem;
+    color: white;
+    font-family: var(--font2);
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  .opc{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .opc a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: var(--font2);
+  }
+  .opc a:hover{
+    color: var(--second);
+  }
+  .contac .azul{
+    font-family: var(--font2);
+    color: var(--second);
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .redes{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+   .redes .contac p a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: var(--font2);
+  }
+  .redes .contac p{
+    padding: 5px 0px 20px;
+    color: white;
+    font-family: var(--font2);
+  }
+  .redes .contac p::after{
+    display: none;
+  }
+  .contac p:hover{
+    color: var(--second);
+  }
+  .contac p a:hover{
+    color: var(--second);
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+  }
+  .social i{
+    color: var(--primary);
+    transition: all 0.5s;
+  }
+  
+  .social i:hover{
+    color: var(--second);
+  }
+  .fin p{
+    color: var(--gris);
+    font-family: var(--font2);
+  }
+}

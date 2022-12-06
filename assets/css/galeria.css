@@ -1,0 +1,173 @@
+.topmenu{
+  background-color: white;
+  padding: 50px 0px;
+  transition: all .3s;
+  width: 100%;
+}
+.contenedor-menu{
+  display: flex;
+  justify-content: space-between;
+}
+.fijar{
+  position: fixed;
+  z-index: 1000;
+}
+.quitarPadding{
+  padding: 5px 0px;
+}
+.ponerPadding{
+  padding: 230px 0px 0px 0px;
+}
+.section-principal{
+  text-align: left;
+}
+.section-principal article{
+  max-width: 550px;
+  padding: 100px 0px;
+}
+.section-principal article p{
+  padding: 30px 0px;
+  font-family: var(--font3);
+  color: var(--gris);
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+/* 
+**Slide fotos
+ */
+ .slide-fotos{
+  padding: 0px 0px 50px;
+ }
+.rota-img{
+  transform: scaleX(-1);
+}
+.slide-fotos h2{
+  text-align: center;
+}
+.caption span{
+  font-size: 3rem;
+}
+/*
+**Parallax
+ */
+.parallax{
+  background-image: url("../imagenes/parallax.jpg");
+  width: 100%;
+  height: 90vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+}
+.parallax.sub2{
+  margin-top: 30px;
+}
+.parallax .titulo2{
+  color: white;
+  font-size: 2.5rem;
+}
+.overview .text{
+  color: white;
+}
+.overview li i{
+  font-size: 2rem;
+  color: var(--second);
+  padding-bottom: 20px;
+}
+.overview li h3{
+  color: white;
+  font-family: var(--font2);
+  font-size: 1.2rem;
+}
+.overview li h3 span{
+  font-family: var(--font3);
+  font-size: 1rem;
+  font-weight: 100;
+}
+.sec-video{
+  background-color: var(--third);
+  height: 100vh;
+  padding: 100px 0px 100px 0px;
+}
+.partes-video{
+  display: flex;
+  justify-content: space-between;
+}
+.contenido-video{
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.video{
+  text-align: center;
+  max-width: 700px;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+.atras{
+  position: absolute;
+  top: 90%;
+  right: -2%;
+  height: 50px;
+  width: 50px;
+  border: 3px solid var(--second);
+  z-index: -10;
+  background-color: white;
+}
+.video figure{
+  width: 100%;
+  height: 100%;
+}
+.video figure img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 
+** Modal
+ */
+ .fondomodal{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.65);
+  position: fixed;
+  z-index: 2000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  }
+  .contenidomodal{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0px;
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+  .contenidomodal iframe{
+    width: 100%;
+    height: 100%;
+  }
+  .estructuramodal{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -0.5%;
+    right: 0.5%;
+  }
+  .estructuramodal i{
+    text-decoration: none;
+    color: red;
+    font-size: 2rem;
+  }
+  .estructuramodal i:hover{
+    color: #333;
+  }

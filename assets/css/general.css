@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400&display=swap');
+:root{
+  /* colors */
+  --primary:#425cbb;
+  --negro:#3d4349;
+  --negro-primary:#202020;
+  --second:#4dc2cc;
+  --second-blue: #CCEFEF;
+  --third: #F2FBFB;
+  --gris:#676767;
+  /* tipografia */
+  --font1: 'Abril Fatface';
+  --font2: 'Montserrat', sans-serif;
+  --font3: 'Roboto Flex', sans-serif;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.ancho{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header{
+  background-image: url("../imagenes/fondo-principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: translate(center center);
+  height: 125vh;
+}
+#azul{
+  color: var(--primary);
+}
+.errorInput{
+  color: red;
+  text-align: right;
+  font-size: 0.7rem;
+  padding-right: 20px;
+}
+.ocultaError{
+  display: none;
+}
+.mostrar{
+  display: block;
+}
+.logo p{
+  color: var(--primary);
+  font-family: var(--font1);
+  font-size: 1.7rem;
+  line-height: 20px;
+  font-weight: 100;
+}
+.logo p span{
+  font-size: 0.68rem;
+  color: var(--negro);
+  font-family: var(--font2);
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.menu{
+  display: none;
+}
+nav a{
+  text-decoration: none;
+  display: inline-block;
+  color: var(--negro);
+  font-family: var(--font3);
+  font-weight: 200;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+}
+nav a:hover{
+  color: var(--primary);
+}
+.titulo{
+  font-family: var(--font1);
+  color: var(--negro);
+  font-weight: lighter;
+  font-size: 5.8rem;
+  line-height: 110%;
+  padding-top: 30px;
+}
+.titulo2{
+  font-family: var(--font1);
+  color: var(--negro);
+  font-weight: lighter;
+  font-size: 2.8rem;
+  line-height: 150%;
+  padding-top: 0px 0px 10px 0px;
+}
+.sub{
+  padding: 28px 0px 28px;
+  font-family: var(--font2);
+  color: var(--gris);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.sub::after{
+  display: block;
+  width: 30px;
+  height: 5px;
+  content: "";
+  background-color: var(--primary);
+  margin: 0 auto;
+  margin: 30px 0px;
+}
+.sub2{
+  font-family: var(--font2);
+  color: var(--second);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.sub2:after{
+  display: block;
+  width: 30px;
+  height: 3px;
+  content: "";
+  background-color: var(--primary);
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.text{
+  font-family: var(--font3);
+  padding: 10px 0px;
+  color: var(--gris);
+  line-height: 24px;
+  font-weight: 200;
+  font-size: 1.25rem;
+}
+#subir{
+  background-color: var(--negro);
+  color: white;
+  transition: all 0.9s;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+  position: sticky;
+  top: 89%;
+  left: 93%;
+  z-index: 1000;
+}
+#subir:hover{
+  background-color: var(--primary);
+  color: white;
+}
+.btn2{
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  background-color: var(--primary);
+  color: white;
+  padding: 15px 0px;
+  border-radius: 50px;
+  border: 2px solid var(--primary);
+  width: 210px;
+  font-family: var(--font2);
+  text-align: center;
+}
+.btn2:hover{
+  background-color: white;
+  color: var(--primary);
+}
+/* 
+** FOOTER
+ */
+ footer{
+  background-color: var(--negro-primary);
+  padding: 60px 0px;
+ }
+ footer section{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+ }
+ .logo-footer p{
+  color: var(--primary);
+  font-family: var(--font1);
+  font-size: 1.7rem;
+  line-height: 20px;
+  font-weight: 100;
+}
+.logo-footer p span{
+  font-size: 0.68rem;
+  color: white;
+  font-family: var(--font2);
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.opc{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.opc a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-family: var(--font2);
+}
+.opc a:hover{
+  color: var(--second);
+}
+.contac .azul{
+  font-family: var(--font2);
+  color: var(--second);
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.redes{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+ .redes .contac p a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-family: var(--font2);
+}
+.redes .contac p{
+  padding: 5px 0px 20px;
+  color: white;
+  font-family: var(--font2);
+}
+.redes .contac p::after{
+  display: none;
+}
+.contac p:hover{
+  color: var(--second);
+}
+.contac p a:hover{
+  color: var(--second);
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65%;
+}
+.social i{
+  color: var(--primary);
+  transition: all 0.5s;
+}
+
+.social i:hover{
+  color: var(--second);
+}
+.fin p{
+  color: var(--gris);
+  font-family: var(--font2);
+}

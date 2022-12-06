@@ -1,0 +1,202 @@
+@media screen and (max-width: 390px) {
+  header{
+    max-height: 55vh;
+  }
+  .logo{
+    margin-left: 2.5%;
+  }
+  nav{
+    position: absolute;
+    top: 72%;
+    left: 2.5%;
+    margin: 0 auto;
+  }
+  .section-principal{
+    width: 95%;
+  }
+  .section-principal article p{
+    padding: 30px 0px;
+    font-family: var(--font3);
+    color: var(--gris);
+    font-size: 0.6rem;
+    font-weight: 200;
+  }
+  .section-principal article{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 40px 5px;
+  }
+  .section-principal article p{
+    padding: 15px 0px;
+    font-family: var(--font3);
+    color: var(--gris);
+    font-size: .9rem;
+    font-weight: 200;
+  }
+  .btn1{
+    font-size: 0.7rem;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: all .8s;
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  }
+  /* 
+**seccion quienes
+*/
+.quienes{
+  padding: 0px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.quienes figure{
+  width: 90%;
+}
+.quienes figure img{
+  width: 100%;
+  box-shadow: -5px 5px 10px var(--gris);
+}
+.quienes article{
+  width: 90%;
+}
+.quienes .titulo2{
+  font-size: 1.6rem;
+  margin-top: -40px;
+}
+.text span{
+  font-size: 0.8rem;
+  line-height: 12px;
+}
+/* 
+**seccion doctores
+*/
+.team{
+  text-align: center;
+  padding: 40px 0px 20px;
+  background-color: var(--third);
+}
+.team .text{
+  width: 70%;
+  margin: 0 auto;
+}
+.doctors{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+.doctors article{
+  transition: all .75s;
+  filter:grayscale(0);
+  padding: 0px 0px 20px;
+  margin-bottom: 25px;
+}
+.doctors article figure{
+  width: 360px;
+}
+.doctors article figure img{
+  width: 100%;
+  transition: all .75s;
+  clip-path: circle(70.7% at 50% 50%);
+}
+.doctors article h3{
+  font-size: 1.5rem;
+  padding: 15px 0px 10px;
+  color: var(--primary);
+}
+/*
+**Contactos
+*/
+.contactanos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 0px 20px;
+  height: 1140px;
+}
+.contactanos .imagen{
+  height: 30vh;
+  width: 100%;
+  background-position: 145%, 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info-contac{
+  max-width: 360px;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.contac p a{
+  text-decoration: none;
+  display: inline-block;
+  color: var(--negro);
+  font-family: var(--font2);
+}
+.contac p{
+  padding: 30px 0px;
+  color: var(--negro);
+  font-family: var(--font2);
+}
+.contac p::after{
+  display: block;
+  width: 50px;
+  height: 3px;
+  content: "";
+  background-color: var(--primary);
+  margin-top: 30px;
+}
+.contac p:hover{
+  color: var(--primary);
+}
+.contac p a:hover{
+  color: var(--primary);
+}
+.contactanos form{
+  min-width: 350px;
+  max-width: 600px;
+  margin: 0px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-family: var(--font2);
+}
+form h2{
+  padding: 20px 0px;
+  text-align: left;
+}
+form input{
+  border: none;
+  border-bottom: 1px solid var(--second);
+  padding: 15px 0px;
+  width: 95%;
+  font-size: 1rem;
+  
+  font-family: var(--font2);
+}
+form input:focus{
+  outline: none;
+}
+form textarea{
+  border: none;
+  border-bottom: 1px solid var(--second);
+  padding: 15px 0px;
+  width: 95%;
+  font-size: 1rem;
+  resize: none;
+  height: 130px;
+  font-family: var(--font2);
+  margin-bottom: 30px;
+}
+form textarea:focus{
+  outline: none;
+}
+}

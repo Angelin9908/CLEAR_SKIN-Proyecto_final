@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- para iconos -->
+  <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/general.css">
+  <link rel="stylesheet" href="assets/css/movil/index-movil.css">
+  <link rel="stylesheet" href="assets/css/movil/general-movil.css">
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+  <title>DERMATOLOGY CLINIC</title>
+</head>
+<body>
+  <header>
+    <div class="ancho contenedor-menu">
+      <div class="logo">
+        <p>CLEAR SKIN</p>
+        <p><span>DERMATOLOGY CLINIC</span></p>
+      </div>
+      <div class="contenedormenu">
+        <div class="menu" id="menu">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+        <nav>
+          <a href="index.html" id="azul">HOME</a>
+          <a href="secciones/services.html" >SERVICES</a>
+          <a href="secciones/gallery.html">GALLERY</a>
+        </nav>
+      </div>
+    </div>
+    <div class="ancho section-principal">
+      <article>
+        <h1 class="titulo">Dermatology & Skin Care</h1>
+      <p>Treating all skin condition from acne to skin cancer</p>
+      <a href="#" class="btn1">BOOK AN APPOINTMENT</a>
+      </article>
+    </div>
+  </header>
+  
+  <div id="subir"><i class="fa-solid fa-chevron-up"></i></div>
+  
+  <section>
+    <div class="ancho quienes">
+        <figure>
+          <img src="assets/imagenes/quien-somos.jpg" alt="">
+        </figure>
+      <article>
+        <h2 class="sub">WHO WE ARE</h2>
+        <h2 class="titulo2">Welcome to Skin Care Clinic</h2>
+        <p class="text">Our dermatology clinic care for both common and rare problems of skin, hair, nails and mucous membranes. More than 25 certified doctors provide care in medical and surgical dermatology.</p>
+        <p class="text"><span>We have helped thousands of patients to overcome difficult and unsightly skin conditions. Whether you suffer from sun damage, acne scars, wrinkles, leg veins or birthmarks, one of our providers will help find the right treatment. Our providers are experienced and skilled in a range of dermatological procedures and cosmetic skin care treatments, including surgical and non-surgical techniques, such as the latest laser procedures, skin cancer surgery and radiation treatments. Our goal is to provide you with the safest and most effective dermatologic experience possible.</span></p>
+      </article>
+    </div>
+  </section>
+  
+  <section class="team">
+    <div class="ancho">
+      <h2 class="sub2">OUR DOCTORS</h2>
+    <h2 class="titulo2">Dedicated Team</h2>
+    <p class="text">At the Skin Care Clinic, we have assembled an outstanding team of doctors who are innovators in the cosmetic and dermatology fields</p>
+    <div class="doctors">
+      <article>
+        <figure>
+          <img src="assets/imagenes/team1.jpg" alt="">
+        </figure>
+        <h3>Dr. Andrey  Nicholas</h3>
+        <p>Certified Dermatologist</p>
+      </article>
+      <article>
+        <figure>
+          <img src="assets/imagenes/team2.jpg" alt="">
+        </figure>
+        <h3>Dr. Kurt McKinzie</h3>
+        <p>Certified Dermatologist</p>
+      </article>
+      <article>
+        <figure>
+          <img src="assets/imagenes/team3.jpg" alt="">
+        </figure>
+        <h3>Dr. Steve Roofman</h3>
+        <p>Certified Dermatologist</p>
+      </article>
+    </div>
+    </div>
+  </section>
+  
+ <section class="contactanos" id="contacto">
+    <div class="imagen"></div>
+      <div class="info-contac">
+        <h2 class="titulo2">
+          Book an Appointment</h2>
+          <p class="text">For your convenience, you can click here to send us an email requesting an appointment at our Skin Care Clinic or:</p>
+          <div class="contac">
+            <h2 class="azul">CALL:</h2>
+            <p>+90 (123) 456 78 99</p>
+            <h2 class="azul">EMAIL:</h2>
+            <p><a href="mailto:mail@demolink.com">mail@demolink.com</a></p>
+          </div>
+      </div>
+      <form action="" name="contenedorformulario">
+        <h2 class="titulo2">Write a Massage</h2>
+        <input type="text" placeholder="Your Name*" id="name" name="name">
+        <small id="input1" name="input1"></small>
+        <input type="email" placeholder="E-mail*" id="email" name="email">
+        <small id="input2" name="input2"></small>
+        <input type="tel" placeholder="Phone" id="phone" name="phone">
+        <textarea id="textArea" placeholder="Message*" maxlength="120" name="textArea"></textarea>
+        <small id="input3" name="input3"></small>
+        <input type="button" class="btn2" value="SEND MESSAGE" id="enviar" onclick="valida_envia()" >
+      </form>
+
+  </section>
+  
+  <footer>
+    <section class="ancho">
+      <div class="logo-footer">
+        <p>CLEAR SKIN</p>
+        <p><span>DERMATOLOGY CLINIC</span></p>
+      </div>
+      <div class="opc">
+        <a href="index.html">Home</a>
+        <a href="secciones/services.html">Services</a>
+        <a href="secciones/gallery.html">Gallery</a>
+      </div>
+      <div class="redes">
+        <div class="contac">
+          <h2 class="azul">PHONE:</h2>
+          <p>+90 (123) 456 78 99</p>
+          <h2 class="azul">EMAIL:</h2>
+          <p><a href="mailto:mail@demolink.com">mail@demolink.com</a></p>
+        </div>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="ancho fin">
+      <p>© 2018 Clear Skin Privacy Policy. Designed by MotoCMS.com</p>
+    </section>
+  </footer> 
+  <script>
+    // Funcion para el menu responsive
+    $("#menu").click(function(){
+        $("nav").toggleClass("mostrar");
+      });
+
+    // Funcion para el boton subir
+$(document).ready(function () {
+  $("#subir").click(function () {
+    $("html,body").animate(
+      {
+        scrollTop: "0px",
+      },
+      1000
+    );
+  });
+});
+  </script>
+  <script src="assets/js/validacion.js"></script>
+</body>
+</html>

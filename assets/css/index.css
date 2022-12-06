@@ -1,0 +1,239 @@
+header{
+  background-image: url("../imagenes/fondo-principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: translate(center center);
+  height: 125vh;
+}
+.contenedor-menu{
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo p{
+  color: var(--primary);
+  font-family: var(--font1);
+  font-size: 1.7rem;
+  line-height: 20px;
+  font-weight: 100;
+}
+.logo p span{
+  font-size: 0.68rem;
+  color: var(--negro);
+  font-family: var(--font2);
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+nav a{
+  text-decoration: none;
+  display: inline-block;
+  color: var(--negro);
+  font-family: var(--font2);
+  font-weight: lighter;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+}
+nav a:hover{
+  color: var(--primary);
+}
+.menu{
+  display: none;
+}
+.section-principal{
+  text-align: left;
+}
+.section-principal article{
+  max-width: 550px;
+  padding: 40px 0px;
+}
+.section-principal article p{
+  padding: 30px 0px;
+  font-family: var(--font3);
+  color: var(--gris);
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.btn1{
+  text-decoration: none;
+  display: inline-block;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-family: var(--font2);
+  font-size: .75rem;
+  font-weight: 600;
+  transition: all .8s;
+  width: 220px;
+  padding: 18px;
+  text-align: center;
+}
+.btn1:hover{
+  background-color: white;
+  color: var(--primary);
+  font-weight: 300;
+}
+/* 
+**seccion quienes
+*/
+.quienes{
+  padding: 50px 0px 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.quienes figure{
+  width: 620px;
+}
+.quienes figure img{
+  width: 100%;
+  box-shadow: -5px 5px 10px var(--gris);
+}
+.quienes article{
+  max-width: 500px;
+}
+.text span{
+  font-size: 1rem;
+  line-height: 16px;
+}
+/* 
+**seccion doctores
+*/
+.team{
+  text-align: center;
+  padding: 120px 0px 90px;
+  background-color: var(--third);
+}
+.team .text{
+  width: 70%;
+  margin: 0 auto;
+}
+.doctors{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+.doctors article{
+  transition: all .75s;
+  filter:grayscale(0.5);
+  padding: 0px 0px 20px;
+}
+.doctors article:hover {
+  box-shadow: 0px 0px 20px #ddd;
+  filter: none;
+  
+  transform: scale(1.03);
+}
+.doctors article:hover figure img{
+  clip-path: circle(70.7% at 50% 50%);
+}
+.doctors article figure{
+  width: 360px;
+}
+.doctors article figure img{
+  width: 100%;
+  transition: all .75s;
+  clip-path: circle(50% at 50% 50%);
+}
+.doctors article h3{
+  font-size: 1.5rem;
+}
+.doctors article p{
+  font-family: var(--font3);
+}
+.doctors article:hover h3{
+  color: var(--primary);
+}
+/*
+**Contactos
+*/
+.contactanos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  height: 100vh;
+}
+.contactanos .imagen{
+  background-image: url("../imagenes/fondo-form.jpg");
+  height: 100%;
+  width: 100%; 
+  background-position: 145%, 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.info-contac{
+  max-width: 290px;
+  min-width: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.contac p a{
+  text-decoration: none;
+  display: inline-block;
+  color: var(--negro);
+  font-family: var(--font2);
+}
+.contac p{
+  padding: 30px 0px;
+  color: var(--negro);
+  font-family: var(--font2);
+}
+.contac p::after{
+  display: block;
+  width: 50px;
+  height: 3px;
+  content: "";
+  background-color: var(--primary);
+  margin-top: 30px;
+}
+.contac p:hover{
+  color: var(--primary);
+}
+.contac p a:hover{
+  color: var(--primary);
+}
+.contactanos form{
+  min-width: 350px;
+  max-width: 600px;
+  margin: 0px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-family: var(--font2);
+}
+form h2{
+  padding: 20px 0px;
+  text-align: left;
+}
+form input{
+  border: none;
+  border-bottom: 1px solid var(--second);
+  padding: 15px 0px;
+  width: 95%;
+  font-size: 1rem;
+  
+  font-family: var(--font2);
+}
+form input:focus{
+  outline: none;
+}
+form textarea{
+  border: none;
+  border-bottom: 1px solid var(--second);
+  padding: 15px 0px;
+  width: 95%;
+  font-size: 1rem;
+  resize: none;
+  height: 130px;
+  font-family: var(--font2);
+}
+form textarea:focus{
+  outline: none;
+}
+form .btn2{
+  margin-top: 30px;
+}

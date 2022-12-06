@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css -->
+  <link rel="stylesheet" href="../assets/css/general.css">
+  <link rel="stylesheet" href="../assets/css/galeria.css">
+  <link rel="stylesheet" href="../assets/css/slide.css">
+  <link rel="stylesheet" href="../assets/css/carousel.css">
+  <!-- css movil -->
+  <link rel="stylesheet" href="../assets/css/movil/general-movil.css">
+  <link rel="stylesheet" href="../assets/css/movil/galeria-movil.css">
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+  <!-- iconos -->
+  <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+  <!-- slide -->
+  <script src="../assets/librerias/responsiveslides.min.js/responsiveslides.min.js"></script>
+  <!-- tiny -->
+  <script src="../assets/librerias/jquery.tinycarousel.js/jquery.tinycarousel.js"></script>
+  <title>Gallery</title>
+</head>
+<body>
+  <header>
+    <div class="topmenu">
+      <div class="ancho contenedor-menu">
+        <div class="logo">
+          <p>CLEAR SKIN</p>
+          <p><span>DERMATOLOGY CLINIC</span></p>
+        </div>
+        
+        <div class="contenedormenu">
+          <div class="menu" id="menu">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+          </div>
+          <nav>
+            <a href="../index.html">HOME</a>
+            <a href="../secciones/services.html" >SERVICES</a>
+            <a href="../secciones/gallery.html"id="azul">GALLERY</a>
+          </nav>
+        </div>
+        
+      </div>
+    </div>
+    <div class="ancho section-principal">
+      <article>
+        <h1 class="titulo">Gallery</h1>
+      <p>Here you can find the best photo shoots from our latest cases.</p>
+      </article>
+    </div>
+  </header>
+
+  <div id="subir"><i class="fa-solid fa-chevron-up"></i></div>
+  
+  <section class="slide-fotos">
+    <h2 class="titulo2">Before & After</h2>
+    <div class="callbacks_container">
+      <ul class="rslides" id="slider4">
+        <li>
+          <img src="../assets/imagenes/slider1.jpg" alt="">
+          <p class="caption"><span>Luisa</span> <br> 52 años</p>
+        </li>
+        <li>
+          <img src="../assets/imagenes/slider2.jpg" alt="">
+          <p class="caption"><span>Norma</span> <br> 48 años</p>
+        </li>
+        <li>
+          <img src="../assets/imagenes/slider3.jpg" alt="">
+          <p class="caption"><span>Raquel</span> <br> 36 años</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec-video">
+    <div class="ancho partes-video">
+      <div class="contenido-video">
+        <h2 class="titulo2">Exfoliation for Beginners</h2>
+        <p class="sub">Physical exfoliation versus chemical exfoliation. </p>
+      </div>
+      <div class="video">
+        <figure>
+          <img src="../assets/imagenes/imagen-video.png" alt="" id="boton-modal">
+        </figure>
+        <div class="atras"></div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="modal"class="fondomodal">
+    <div class="contenidomodal">
+      <div class="estructuramodal">
+          <i id="cerrarbtn" class="cerrarmodal fa-solid fa-xmark"></i>
+      </div>
+      <iframe src="https://www.youtube.com/embed/bc5eiMJRy5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+    </div>
+   </section>
+  
+  <section class="parallax">
+    <h2 class="sub2">TESTIMONIALS</h2>
+    <h2 class="titulo2">What Clients Say</h2>
+    <section id="corousel1">
+      <a class="buttons prev" href="#">
+        <i class="fa-solid fa-chevron-left"></i>
+      </a>
+      <div class="viewport">
+        <ul class="overview">
+          <li>
+            <i class="fa-solid fa-quote-left"></i>
+            <br>
+            <p class="text">I go there regularly for my psoriasis and have always had wonderful customer services. The staff at the clinic were all very friendly and professional and I love working with Dr. Smith.</p>
+            <br>
+            <h3>MERY DOWEN<br> <span>Client</span> </h3>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-quote-left"></i>
+            <br>
+            <p class="text">I couldn't be happier with the result. I have my skin and my confidence back! Everyone in Skin Care Clinic have been so efficient and friendly, making me feel very comfortable.</p>
+            <br>
+            <h3>SINDY GEFERSON<br> <span>Client</span> </h3>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-quote-left"></i>
+            <br>
+            <p class="text">Dr. Malcolm  has shown me that he has real concern for his patients. If you need dermatology care, Skin Care Clinic is as good as it gets.</p>
+            <br>
+            <h3>BOB PETERSON<br> <span>Client</span> </h3>
+          </li>
+          
+        </ul>
+      </div>
+      <a class="buttons next" href="#">
+        <i class="fa-solid fa-chevron-right"></i>
+      </a>
+    </section>
+  </section>
+
+  <footer>
+    <section class="ancho">
+      <div class="logo-footer">
+        <p>CLEAR SKIN</p>
+        <p><span>DERMATOLOGY CLINIC</span></p>
+      </div>
+      <div class="opc">
+        <a href="../index.html">Home</a>
+        <a href="../secciones/services.html">Services</a>
+        <a href="../secciones/gallery.html">Gallery</a>
+      </div>
+      <div class="redes">
+        <div class="contac">
+          <h2 class="azul">PHONE:</h2>
+          <p>+90 (123) 456 78 99</p>
+          <h2 class="azul">EMAIL:</h2>
+          <p><a href="mailto:mail@demolink.com">mail@demolink.com</a></p>
+        </div>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="ancho fin">
+      <p>© 2018 Clear Skin Privacy Policy. Designed by MotoCMS.com</p>
+    </section>
+  </footer>
+  <script src="../assets/js/fijarmenu.js"></script>
+  <script src="../assets/js/modal.js"></script>
+  <!-- SLIDERS -->
+  <script>
+    // Funcion para el menu responsive
+    $("#menu").click(function(){
+        $("nav").toggleClass("mostrar");
+      });
+
+    $(function () {
+      $("#slider4").responsiveSlides({
+        auto: true,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+    });
+
+    // Funcion para el boton subir
+$(document).ready(function () {
+  $("#subir").click(function () {
+    $("html,body").animate(
+      {
+        scrollTop: "0px",
+      },
+      1000
+    );
+  });
+});
+  </script>
+<!-- CARROUSEL -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    $('#corousel1').tinycarousel();
+  });
+</script>
+</body>
+</html>
