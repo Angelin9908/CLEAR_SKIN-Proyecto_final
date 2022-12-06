@@ -1,15 +1,7 @@
-
+/* Angel Gabriel Piste Santiago */
 var fondomodal =document.getElementById("modal");
 var btn = document.getElementById("boton-modal");
 var cerrar = document.getElementById("cerrarbtn");
-/*
-para que aparezca en cierto tiempo
-*/
-
-/* function tiempo(){
-  fondomodal.style.display="block";
-};
-setTimeout(tiempo, 5000); */
 
 btn.onclick = function (){
   fondomodal.style.display="block";

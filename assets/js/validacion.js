@@ -1,3 +1,4 @@
+/* Angel Gabriel Piste Santiago */
 function valida_envia(){
   if( document.contenedorformulario.name.value.length==0){
     ele = document.getElementById('input1') 

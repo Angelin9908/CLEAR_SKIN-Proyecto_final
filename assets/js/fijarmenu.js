@@ -1,3 +1,4 @@
+/* Angel Gabriel Piste Santiago */
 $(document).ready(function(){
   var altura = $('.contenedor-menu').offset().top;
   var ancho = $(window).width();
